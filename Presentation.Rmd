@@ -1,0 +1,59 @@
+---
+title: "NFL Defense: Creating the *BEST* Defensive Team"
+author: "Denise Bradford"
+date: "12/3/2019"
+output:
+  beamer_presentation:
+    incremental: true
+    theme: "AnnArbor"
+    colortheme: "dolphin"
+    fonttheme: "structurebold"
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE,
+               out.width = "75%", 
+               fig.align = "center")
+setwd( "/Users/denisebradford/Documents/nflstatistics") 
+```
+
+## Football Defense Formations
+
+```{r image}
+include_graphics(c("doggy.jpeg", "kitty.jpeg"))
+```
+![4-3 Defensive](/Users/denisebradford/Documents/nflstatistics/4_3)
+![5-2 Defensive](/Users/denisebradford/Documents/nflstatistics/5_2)
+
+
+##DATA
+What is my topic? Real-life Data Management and Statistical Analysis: A trip down getting the "right data to analyze"  
+- Part 1: Data Management   
+- Part 2: Statistical Analysis  
+
+##Part 1: Data Management
+As an applied statistican, I believe that it is important ti talk about the process it takes to get the "right dataset"  
+    - Meta-Analysis of data pulled from sources 
+        - Kaggle 
+        - ESPN 
+        - pro-football-reference.com  
+    
+•	present a topic related (at least loosely) to Stat 823 subject matter
+•	explain why it is of interest & who would find the topic of interest
+•	if it is a method, who would use it, when and why?
+•	give an example of its application
+
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+#summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+#plot(pressure)
+```
+
